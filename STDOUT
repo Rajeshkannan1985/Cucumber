@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="177.331406">
+<testcase classname="Add Tariff Plan in two dimensional" name="_2" time="91.118869">
+<system-out><![CDATA[Given user should be in the Telecome homepages..............................passed
+And user should be click on Add Tariffs.....................................passed
+When User should be fill all the field with valid dataa.....................passed
+And user should be click on submit buttons..................................passed
+Then Add Tariff should be displayedd........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tariff Plan in two dimensional" name="_3" time="24.951632">
+<failure message="java.lang.IndexOutOfBoundsException: Index: 1, Size: 1&#13;&#10;&#9;at java.util.ArrayList.rangeCheck(Unknown Source)&#13;&#10;&#9;at java.util.ArrayList.get(Unknown Source)&#13;&#10;&#9;at java.util.Collections$UnmodifiableList.get(Unknown Source)&#13;&#10;&#9;at org.Cucumber14.AddTariff2D.user_should_be_fill_all_the_field_with_valid_dataas(AddTariff2D.java:45)&#13;&#10;&#9;at ✽.User should be fill all the field with valid dataas(C:/Users/user3/eclipse-workspace/Cucumber14/src/test/resources/Feature/AddTariff.feature:13)&#13;&#10;"><![CDATA[Given user should be in the Telecome homepages..............................passed
+And user should be click on Add Tariffs.....................................passed
+When User should be fill all the field with valid dataas....................failed
+And user should be click on submit buttons..................................skipped
+Then Add Tariff should be displayedd........................................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.Cucumber14.AddTariff2D.user_should_be_fill_all_the_field_with_valid_dataas(AddTariff2D.java:45)
+	at ✽.User should be fill all the field with valid dataas(C:/Users/user3/eclipse-workspace/Cucumber14/src/test/resources/Feature/AddTariff.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="Add Tariff Plan in two dimensional" name="_4" time="61.260905">
+<failure message="java.lang.IndexOutOfBoundsException: Index: 1, Size: 1&#13;&#10;&#9;at java.util.ArrayList.rangeCheck(Unknown Source)&#13;&#10;&#9;at java.util.ArrayList.get(Unknown Source)&#13;&#10;&#9;at java.util.Collections$UnmodifiableList.get(Unknown Source)&#13;&#10;&#9;at org.Cucumber14.AddTariff2D.user_should_be_fill_all_the_field_with_valid_datas1(AddTariff2D.java:56)&#13;&#10;&#9;at ✽.User should be fill all the field with valid dataas.(C:/Users/user3/eclipse-workspace/Cucumber14/src/test/resources/Feature/AddTariff.feature:21)&#13;&#10;"><![CDATA[Given user should be in the Telecome homepages..............................passed
+And user should be click on Add Tariffs.....................................passed
+When User should be fill all the field with valid dataas....................failed
+And user should be click on submit buttons..................................skipped
+Then Add Tariff should be displayedd........................................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.Cucumber14.AddTariff2D.user_should_be_fill_all_the_field_with_valid_datas1(AddTariff2D.java:56)
+	at ✽.User should be fill all the field with valid dataas.(C:/Users/user3/eclipse-workspace/Cucumber14/src/test/resources/Feature/AddTariff.feature:21)
+]]></failure>
+</testcase>
+</testsuite>
